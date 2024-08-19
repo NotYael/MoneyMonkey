@@ -1,0 +1,13 @@
+.bank-container {
+    background-color: white;
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}

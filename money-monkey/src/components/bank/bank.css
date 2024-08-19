@@ -1,0 +1,28 @@
+
+.bank {
+    display: inline;
+    align-items: center;
+}
+
+.bank-name {
+    height: auto;
+    max-height: 50px;
+    text-align: center;
+    width: max-content
+}
+
+.bank-name p{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 2px;
+    text-transform: capitalize;
+}
+
+.bank-total {
+    font-size: 10px;
+    font-weight: bold;
+    color: black !important;
+    padding: 2px;
+    text-align: center;
+}

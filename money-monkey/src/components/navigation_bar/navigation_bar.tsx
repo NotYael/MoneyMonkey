@@ -4,9 +4,11 @@ import './navigation_bar.css';
 
 interface navigation_barProps {}
 
+// TODO: Implement change color on navbar button click
+
 const navigation_bar: FC<navigation_barProps> = () => {
    return (
-      <div className='center'>
+      <div className='center block'>
          <div className='rectangle-box center'>
             <button onClick={() => console.log("HOME BUTTON")}><img src={'../../resources/Home.svg'} alt='Home Logo' className='nav-button' /></button>
             <button onClick={() => console.log("BUDGETS BUTTON")}><img src={'../../resources/Budget.svg'} alt='Budget Logo' className='nav-button' /></button>
